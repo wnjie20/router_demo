@@ -1,0 +1,66 @@
+{
+  "app": {
+    "signingConfigs": [
+      //      {
+      //        "name": "default",
+      //        "type": "HarmonyOS",
+      //        "material": {
+      //          "certpath": "C:\\Users\\WangNJ1\\.ohos\\config\\default_ohos_NXq-kz-2VOW4qm3IZIZaPcynyJyEeFKJC9c1vIZy_dA=.cer",
+      //          "keyAlias": "debugKey",
+      //          "keyPassword": "0000001B1CA258608CF8FF3F369380EE12D66C0E90EA575C7677461643FAFEACA758AEB9108E5F2112547E",
+      //          "profile": "C:\\Users\\WangNJ1\\.ohos\\config\\default_ohos_NXq-kz-2VOW4qm3IZIZaPcynyJyEeFKJC9c1vIZy_dA=.p7b",
+      //          "signAlg": "SHA256withECDSA",
+      //          "storeFile": "C:\\Users\\WangNJ1\\.ohos\\config\\default_ohos_NXq-kz-2VOW4qm3IZIZaPcynyJyEeFKJC9c1vIZy_dA=.p12",
+      //          "storePassword": "0000001B2ABBFFCFD6E2B367247216C42088A7F5B50993B240CEFC8E341015146A5CF1949D8DD95C578D90"
+      //        }
+      //      }
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\jie\\.ohos\\config\\default_ohos_BBvPXB4LKFea-RZmqe1ZWd6qklqn33TCehmdWq_ZH_A=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAB5E4E98B3E2466AF863386FDFCA314B4BA5E87AA0B276E4588F21FAFEA1D7664B8081BF86ED74",
+          "profile": "C:\\Users\\jie\\.ohos\\config\\default_ohos_BBvPXB4LKFea-RZmqe1ZWd6qklqn33TCehmdWq_ZH_A=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\jie\\.ohos\\config\\default_ohos_BBvPXB4LKFea-RZmqe1ZWd6qklqn33TCehmdWq_ZH_A=.p12",
+          "storePassword": "0000001B34D199F58A494E06BE0880FA2C6363A31FEBA07B6FC8765B7E5C2F6225AF4425663CAE686F1EF1"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "targetSdkVersion": "6.0.0(20)"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "profile"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
